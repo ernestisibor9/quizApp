@@ -1,0 +1,50 @@
+.nav-link{
+    color: #fff !important;
+    font-weight: bold;
+}
+.navbar-brand{
+    color: #fff !important;
+}
+
+.container{
+    background-color:#fff;
+    width: 700px;
+    margin-top: 50px;
+    padding-top: 50px;
+    box-shadow: 0px 2px 5px 3px rgba(0,235,15,0.75);
+    -webkit-box-shadow: 0px 2px 5px 3px rgba(0,235,15,0.75);
+    -moz-box-shadow: 0px 2px 5px 3px rgba(0,235,15,0.75);
+}
+img{
+    width: 180px;
+    height: 150px;
+}
+.imgContainer{
+    text-align: center;
+}
+.questionContainer{
+    font-size: 1.2rem;
+    padding-left: 40px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.optionsContainer{
+    font-size: 1rem;
+    padding-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px; 
+}
+.btnContainer{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.scoreContainer{
+    color: green;
+    font-size: 1.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#timeUp h1{
+    text-align: center;
+    color: red;
+    padding-top: 50px;
+}

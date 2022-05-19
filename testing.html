@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="timerBox">
+        Time Left: <span id="timeLeft"></span>
+    </h1>
+    <h1>I LOVE YOU</h1>
+
+    <script>
+        let totalTime = 100;
+        let min = 0;
+        let sec = 0;
+        let counter = 0;
+        let timer = setInterval(myTimer, 1000)
+
+        function myTimer(){
+            counter++;
+            min = Math.floor((totalTime - counter)/60)
+            sec = totalTime - min * 60 - counter
+            // console.log(sec);
+
+            
+        const timerBox = document.getElementById('timerBox')
+        const timeLeft = document.getElementById('timeLeft')
+        timeLeft.textContent = min + " " + sec 
+        // timeLeft.textContent = sec 
+        timerBox.appendChild(timeLeft)
+
+        if(counter === totalTime){
+            clearInterval(timer)
+        }
+        }
+    </script>
+</body>
+</html>
