@@ -120,7 +120,7 @@ function displayScore(){
 
 // Timer functionality
 
-let totalTime = 60;
+let totalTime = 180;
 let min = 0;
 let sec = 0;
 let counter = 0;

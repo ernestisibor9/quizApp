@@ -1,0 +1,38 @@
+.container2{
+    background-color:#fff;
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0px 2px 5px 3px rgba(0,235,15,0.75);
+    -webkit-box-shadow: 0px 2px 5px 3px rgba(0,235,15,0.75);
+    -moz-box-shadow: 0px 2px 5px 3px rgba(0,235,15,0.75);
+}
+img{
+    width: 180px;
+    height: 150px;
+}
+.imgContainer{
+    text-align: center;
+}
+input{
+    /* padding-bottom: 150px; */
+    height: 50px;
+}
+/* #exam_id{
+    padding-bottom: 30px;
+} */
+#login{
+    height: 50px;
+    font-size: 1.2rem;  
+}
+.btnContainer{
+    margin-top: 40px;
+}
+.created{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
