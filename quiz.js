@@ -36,6 +36,7 @@ const btn2 = document.getElementById('btn2')
 const btn3 = document.getElementById('btn3')
 const timeUp = document.getElementById('timeUp')
 const scoreContainer = document.getElementById('scoreContainer')
+const myPic = document.getElementById('myPic')
 
 // Hide the submit button
 btn2.style.display = 'none'
@@ -45,6 +46,9 @@ timeUp.style.display = 'none'
 
 // Hide the print button
 btn3.style.display = 'none'
+
+// Hide the photo
+myPic.style.display = 'none'
 
 // Initial variable myQuiz to zero
 let myQuiz = 0;
@@ -111,6 +115,7 @@ function displayScore(){
     questionContainer.style.display = 'none'
     optionsContainer.style.display = 'none'
     btn2.style.display = 'none'
+    myPic.style.display = 'block'
     scoreContainer.textContent= `You score ${score} / ${questionsArray.length * 5}`
     scoreContainer.style.fontSize = '40px'
     scoreContainer.style.paddingTop = '100px'
@@ -120,7 +125,7 @@ function displayScore(){
 
 // Timer functionality
 
-let totalTime = 180;
+let totalTime = 30;
 let min = 0;
 let sec = 0;
 let counter = 0;

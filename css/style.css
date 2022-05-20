@@ -48,4 +48,15 @@ img{
     color: red;
     padding-top: 50px;
 }
+#myPic{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+
+}
+.imgContainer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
